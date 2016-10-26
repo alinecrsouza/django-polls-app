@@ -8,25 +8,24 @@ with open(os.path.join(os.path.dirname(__file__), 'README.rst')) as readme:
 os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
-    name='django-polls',
+    name='django-polls-app',
     version='0.1',
     packages=find_packages(),
     include_package_data=True,
-    license='BSD License',  # example license
+    license='MIT License',
     description='A simple Django app to conduct Web-based polls.',
     long_description=README,
-    url='https://www.example.com/',
-    author='Your Name',
+    url='https://github.com/alinecrsouza/django-polls-app',
+    author='Aline C. R. Souza',
     author_email='yourname@example.com',
     classifiers=[
         'Environment :: Web Environment',
         'Framework :: Django',
-        'Framework :: Django :: X.Y',  # replace "X.Y" as appropriate
+        'Framework :: Django :: 1.10',
         'Intended Audience :: Developers',
-        'License :: OSI Approved :: BSD License',  # example license
+        'License :: OSI Approved :: MIT License',
         'Operating System :: OS Independent',
         'Programming Language :: Python',
-        # Replace these appropriately if you are stuck on Python 2.
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: 3.5',
